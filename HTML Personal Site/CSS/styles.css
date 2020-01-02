@@ -4,8 +4,12 @@ a:visited{
 
 body {
   background-color: #FFF4e4;
-  font-size: 3vh;
+  font-size: 4vh;
   font-family: 'Raleway', sans-serif;
+}
+
+input {
+  height: 4vh;
 }
 
 br {
@@ -26,14 +30,14 @@ h1 {
 
 h3 {
   color: #0c9463;
-  font-size: 5vh;
+  font-size: 6vh;
   font-style: italic;
   text-decoration: underline;
   font-family: 'Crete Round', serif;
 }
 
 h4 {
-  font-size: 4vh;
+  font-size: 5vh;
   font-style: italic;
   text-decoration: underline;
   font-family: 'Playfair Display', serif;
@@ -41,6 +45,7 @@ h4 {
 
 p {
   margin-top: 20px;
+  line-height: 1.5;
 }
 
 hr {
@@ -55,7 +60,7 @@ hr {
 }
 
 img {
-  max-width: 40%;
+  width: 70%;
   height: auto;
 }
 
