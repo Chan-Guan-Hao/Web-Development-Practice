@@ -55,7 +55,7 @@ img {
 
 .div1 {
   height: auto;
-  width: auto;
+  width: 100vw;
   margin: 0 auto;
   position: relative;
 }
@@ -65,10 +65,9 @@ img {
 }
 
 .desert {
-  max-height: 100vh;
-  max-wdith: 100vw;
+  width: auto ;
+  max-width: 100% ;
   height: auto;
-  width: auto;
   margin: 0 auto;
   display: block;
 }
