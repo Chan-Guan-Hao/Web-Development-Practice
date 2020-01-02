@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Playbook 2</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Raleway&display=swap" rel="stylesheet">
+  <style media="screen">
+    .css_box_model {
+      max-width: 20%;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Resources</h3>
+  <p><a href="https://www.favicon.cc/">favicon.cc</a></p>
+  <p><a href="https://fonts.google.com/">Embedding Google Fonts</a></p>
+  <p><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">
+      Colorzilla: Extracting hex colour code in any pixel of webpage.</a></p>
+  <h4>Images & GIFs Resources</h4>
+  <p><a href="https://www.pexels.com/challenges/travel/">Pexel</a></p>
+  <p><a href="https://www.pexels.com/challenges/travel/">GIPHY</a></p>
+  <p><a href="https://www.pexels.com/challenges/travel/">FlatIcon</a></p>
+
+  <hr>
+
+  <h3>Favicon</h3>
+  <p><em>&lt;link rel="icon" href="favicon_cgh.ico"&gt;</em></p>
+  <hr>
+
+  <h3>Removing Default Browser CSS margins</h3>
+  <p>Set margin of body to 0 <strong>AS WELL AS</strong> set margin-top of content to 0 (e.g. h3). </p>
+  <hr>
+
+  <h3>Div</h3>
+  <p><em>&lt;div class=""&gt;&lt;/div&gt;</em></p>
+  <p>Styled using CSS. Default CSS: Height of content inside div tags.
+    Defining height of div overrides default CSS tag.</p>
+  <hr>
+
+
+  <h3>Box Model</h3>
+  <p>From inside to outside: Content, Padding, Border, Margin.</p>
+  <p><strong>Padding: </strong>Spacing around content.</p>
+  <p><strong>Margin: </strong>Spacing around border.</p>
+  <img class="css_box_model" src="../Images/CSS Box Model.png" alt="CSS Box Model">
+  <h4>Static vs Dynamic Sizing Example:</h4>
+  <p><strong><em>width: 100px</em></strong> vs <strong><em>max-width: 25%</em></strong>.<br>
+    Use vh / vw for sizing based on view port.</p>
+
+  <hr style="border-style: none; margin: 0; height: 0px;">
+
+  <h4>Circle Shorthand Recap</h4>
+  border-width: 0 10px 20px 30px (border sizes in clockwise order.)<br>
+  (Define border-style first (e.g. solid) before
+  adjusting border-width.)</p>
+  <hr>
+
+  <h3>Box Model Exercises</h3>
+  <a href="Box Model Exercises.html">Box Model Exercises</a>
+  <hr>
+
+  <h3>Display Properties</h3>
+  <p>
+    <strong>Block:</strong> Takes up whole width. Can adjust width.<br>
+    <strong>Inline:</strong> Next html element is inline with current html element. Cannot adjust width.<br>
+    <strong>Inline-block:</strong> Inline but can adjust width.
+  </p>
+  <hr>
+
+  <h3>Positioning</h3>
+  <p>
+    <strong>Static:</strong> Follows flow of html elements.<br>
+    <strong>Relative:</strong> Positioning based on previous position.<br>
+    <strong>Absolute:</strong> Positioning based on parent element. Removes element
+    from html flow.
+  </p>
+  <hr>
+
+  <h3>Centering</h3>
+  <p>
+    <ol>
+      <li><strong>text-align: center</strong> in parent element. However, it does not work if width is set/changed.</li>
+      <li>Use <strong>margin-left / margin-right: auto</strong> or <strong>margin: <em>some value</em> 0</strong></li>
+    </ol>
+  </p>
+  <p><a href="https://codepen.io/edge0703/pen/iHJuA?editors=1100"><strong>Advanced Centering Techniques for Divs.</strong></a></p>
+  <hr>
+
+  <h3>Font Styles</h3>
+  <p>Use font-family. <span class="font1">Sans-Serif</span> vs <span class="font2">Serif</span>.</p>
+  <p>Use <em>span</em> tag to style different parts of the text. </p>
+  <p>For Font Designs, use similar moods and time era but different serif-ness and weights.</p>
+  <h4>Embedding Fonts</h4>
+  <ol>
+    <li>Go to Google Font Website (above)</li>
+    <li>Click the Plus button to select font</li>
+    <li>Copy html code for link tag in head section</li>
+    <li>Copy css code in the css file in respective font elements to be styled</li>
+  </ol>
+  <h4>Types of Font Sizes</h4>
+  <p>1em, 1rem (recommended), 16px, 10vh or 10vw, 10%</p>
+  <p>1em or 1rem = 16px</p>
+  <hr>
+
+  <h3>Creating CSS Buttons</h3>
+  <p><a href="https://www.bestcssbuttongenerator.com/">
+      Creating CSS Buttons</a></p>
+  <p>Just copy paste the CSS code generated from the CSS Button Generator above and edit the CSS code.</p>
+  <p>Edit the class of the a tag to the corresponding class in the CSS file.</p>
+
+
+</body>
+
+</html>

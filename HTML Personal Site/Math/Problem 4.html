@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Problem 4</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1><u><em>CumSumCeption</em></u></h1>
+
+  <p>The kth simplicial number sequence can be derived by the following below:</p>
+  <ol>
+    <li>current_sequence = All 1’s sequence.</li>
+    <li>
+      Repeat the process below k times:
+      <ol style = "list-style-type: lower-alpha;">
+        <li>current_sequence = cumsum(current_sequence) whereby cumsum is a function that generates the cumulative sequence of current_sequence.</li>
+      </ol>
+    </li>
+  </ol>
+  <p>For example, if k = 2, the kth simplicial number sequence = cumsum(cumsum(All 1’s sequence))</p>
+  <p>Find the nth number of the kth simplicial number sequence in terms of n and k.</p>
+
+  <h3><a href="Solution 4.html">CumSumCeption Solution</a></h3>
+
+</body>
+
+</html>

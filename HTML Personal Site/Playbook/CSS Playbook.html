@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Playbook</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Raleway&display=swap" rel="stylesheet">
+
+  <style media="screen">
+    /* Class Selectors */
+    .red {
+      color: red;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .invisible {
+      color: #FFF4e4
+    }
+
+    .invisible:hover {
+      color: black;
+    }
+
+    /* ID Selectors */
+
+    #brown {
+      color: brown;
+    }
+
+    #underline {
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h3>Resources</h3>
+  <p><a href="https://colorhunt.co/">colorhunt.co</a></p>
+  <p><a href="https://www.rapidtables.com/web/css/css-color.html">CSS colors</a></p>
+  <p><a href="https://www.degraeve.com/reference/specialcharacters.php">HTML Special Characters</a></p>
+  <p>To add tabs in HTML: &amp;emsp;</p>
+  <p><a href="https://www.w3schools.com/cssref/css_default_values.asp">Browser Default CSS</a></p>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style">Border Style:</a>
+    <em><strong>See Syntax Section</strong></em></p>
+  <p><a href="https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh">Pesticide Extension:</a>
+    Highlights HTML elements in rectangular boxes.</p>
+  <hr>
+
+  <h3>Inline CSS</h3>
+  <h4> Changing Background Colour </h4>
+  <p><em>&lt;body style ="background-color: blue;"&gt;</em></p>
+  <p><em>&lt;body style ="background-color: #0000FF;"&gt;</em></p>
+
+  <h4> Changing List Style Type</h4>
+  <p><em>&lt;ol style = "list-style-type: lower-alpha;"&gt;</em></p>
+  <hr>
+
+  <h3>Internal CSS</h3>
+  <p> Using <em>style</em> tag in <em>head</em></p>
+  <h4> Changing Background Colour </h4>
+  <p>
+    body &#123;<br>
+    &emsp;background-color: red;<br>
+    &#125;
+  </p>
+
+  <h4> Horizontal Rule CSS Elements (Example) </h4>
+  <p>
+    hr &#123;<br>
+    &emsp;border-style: none;<br>
+    &emsp;border-top: dotted;<br>
+    &emsp;border-width: 15px;<br>
+    &emsp;border-color: grey;<br>
+    &emsp;width: 20%;<br>
+    &#125;<br>
+    <br>
+    Other Properties: background-color, height, border-radius, margin etc.
+  </p>
+
+  <h4> Text CSS properties examples </h4>
+  <p>
+    h3 &#123;<br>
+    &emsp;color: #50d890;<br>
+    &emsp;font-size: 1.4em;<br>
+    &#125;<br>
+  </p>
+  <br>
+  <em>em: </em> Unit of font size.
+  <hr>
+
+  <h3>External CSS</h3>
+  <p>Same syntax as Internal CSS but instead the code is stored in a separate css file
+    and each html code file links to that css file.</p>
+
+  <hr>
+
+  <h3>CSS Hierarchy</h3>
+  <p>Inline CSS <br>
+    <em><strong>OVERRIDES</strong></em> <br>
+    Internal CSS <br>
+    <em><strong>OVERRIDES</strong></em> <br>
+    External CSS <br>
+    <em><strong>OVERRIDES</strong></em> <br>
+    Default Browser CSS
+  </p>
+
+  <hr>
+
+  <h3>Tag, Class and ID Selectors Hierarchy</h3>
+
+  <p>ID Selectors <br>
+    <em><strong>OVERRIDES</strong></em> <br>
+    Class Selectors <br>
+    <em><strong>OVERRIDES</strong></em> <br>
+    Tag Selectors <br>
+  </p>
+
+  <br>
+
+  <h3>Tag, Class and ID Selectors Examples</h3>
+
+  <h4> Class Selectors Example </h4>
+  <h3 class="red">Different Class (color changed even with h3 tag.)</h3>
+  <p>&lt;h3 class = "red"&gt;<br></p>
+  <h3 class="red">1 class can be assigned to different elements.</h3>
+  <h3 class="red italic">1 element can have multiple classes.</h3>
+  <p>&lt;h3 class = "red italic"&gt;</p>
+  <h4>Class Selectors Example Code</h4>
+  <p>
+    .red &#123;<br>
+    &emsp;color: red;<br>
+    &#125;<br>
+    .italic &#123;<br>
+    &emsp;font-style: italic;<br>
+    &#125;<br>
+  </p>
+
+  <h4> ID Selectors Example </h4>
+  <h3 class="red" id="underline">Class and ID Selectors can overlap.
+    Id tags should be unique.
+    One element cannot have multiple id selectors.</h3>
+  &lt;h3 class="red" id="underline"&gt;
+  <h3 class="red" id="brown"> Id tag takes priority over class tags.</h3>
+  &lt;h3 class="red" id="brown"&gt;
+  <h4>ID Selectors Example Code</h4>
+  <p>
+    #brown &#123;<br>
+    &emsp;color: brown;<br>
+    &#125;<br>
+    #underline &#123;<br>
+    &emsp;text-decoration: underline;<br>
+    &#125;<br>
+  </p>
+  <p>Id Selectors are generally not recommended.</p>
+  <hr>
+
+  <h3>Pseudoclass Examples</h3>
+  <h4 class="invisible">
+    You found me! <em>&#58;hover</em> is an example of pseudoclass.
+    Elements that have pseudoclass represents that they have different "states".
+    (For example, whether the cursor is on the text for <em>&#58;hover</em>.)
+  </h4>
+  <h4 class="invisible">Example Code:</h4>
+  <p class="invisible">
+    .invisible &#123;<br>
+    &emsp;color: #FFF4e4 <br>
+    &#125;<br>
+    .invisible:hover &#123;<br>
+    &emsp;color: black;<br>
+    &#125;<br>
+  </p>
+
+</body>
+
+</html>

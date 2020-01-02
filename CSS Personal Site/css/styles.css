@@ -1,0 +1,181 @@
+a:visited {
+  color: #1E47B9;
+}
+
+.footer-link {
+  color: #1E47B9;
+  margin: auto 15px;
+}
+
+body {
+  background-color: #effffb;
+  margin: 0;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2.75rem;
+  font-family: 'Bree Serif', serif;
+  margin: 30px auto;
+  color: #cc0066
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Bree Serif', serif;
+  margin: 30px auto;
+  color: #cc0066
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #6c7b95;
+  border-width: 20px;
+  margin: 60px auto;
+  width: 15%;
+}
+
+div {
+  margin: 30px auto;
+}
+
+p {
+  margin: 30px auto;
+  width: 50%;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin: 20px auto;
+}
+
+.data-science {
+  display: inline-block;
+  overflow: auto;
+  width: 31.5%;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 2%;
+}
+
+.data-science2 {
+  display: inline-block;
+  overflow: auto;
+  width: 61.5%;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.music {
+  display: inline-block;
+  overflow: auto;
+  width: 38.5%;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.music2 {
+  display: inline-block;
+  overflow: auto;
+  width:58.5%;
+  vertical-align: middle;
+  text-align: left;
+  margin-right: 0;
+}
+
+
+.skill-row {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
+.skill-row:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.div1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.div2 {
+  display: inline-block;
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.div3 {
+  margin: 15px auto 30px auto;
+}
+
+.desert {
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.h1_1 {
+  position: absolute;
+  font-size: 10vh;
+  font-family: 'Merienda', cursive;
+  top: 10vh;
+  left: 0;
+  right: 0;
+}
+
+.middle_container {
+  line-height: 2;
+}
+
+.bottom-container {
+  line-height: 2;
+}
+
+.p_1 {
+  margin: 0;
+  position: absolute;
+  font-size: 7.5vh;
+  font-family: 'Gochi Hand', cursive;
+  color: #1E47B9;
+  bottom: 7.5%;
+  right: 0;
+}
+
+.myButton {
+	box-shadow: 6px 9px 7px -2px #ed0077;
+	background-color:#cc0066;
+	border-radius:14px;
+	border:3px solid #8a0045;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Bree Serif', serif;
+	font-size: 1.75rem;
+	font-weight:bold;
+	padding:16px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#1E47B9;
+  border:3px solid #04048c;
+  box-shadow: 6px 9px 7px -2px #0980f7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

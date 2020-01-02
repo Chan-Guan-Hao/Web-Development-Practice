@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Box Model Exercises</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Raleway&display=swap" rel="stylesheet">
+  <style media="screen">
+    .red1 {
+      background-color: red;
+      width: 200px;
+      height: 200px;
+    }
+
+    .blue1 {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+    }
+
+    .yellow1 {
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+    }
+
+    .red2 {
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      border-style: solid;
+      border-width: 10px;
+    }
+
+    .blue2 {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+      margin-left: 260px;
+      border-style: solid;
+      border-width: 20px;
+    }
+
+    .yellow2 {
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+      margin-left: 500px;
+      border-style: solid;
+      border-width: 10px;
+    }
+
+    .red3 {
+      display: inline-block;
+      background-color: red;
+      width: 200px;
+      height: 200px;
+    }
+
+    .blue3 {
+      display: inline-block;
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+    }
+
+    .yellow3 {
+      display: inline-block;
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+    }
+
+    .red4 {
+      display: inline-block;
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      left: 400px;
+    }
+
+    .blue4 {
+      display: inline-block;
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      right: 200px;
+    }
+
+    .yellow4 {
+      display: inline-block;
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      right: 200px;
+    }
+
+    .container {
+      position: relative;
+      width: 600px;
+      height: 600px;
+    }
+
+    .red5 {
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 400px;
+      left: 400px;
+    }
+
+    .blue5 {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 200px;
+      left: 200px;
+    }
+
+    .yellow5 {
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Exercise 1: Three Vertical Squares</h3>
+  <div class="red1">
+
+  </div>
+
+  <div class="blue1">
+
+  </div>
+
+  <div class="yellow1">
+
+  </div>
+  <p>Solution Description: Just make 3 difs, define the colours, width and height.</p>
+  <p>Position used is static.</p>
+
+  <h3>Exercise 2: Three Diagonal Squares with Varying Border & Padding Sizes</h3>
+  <div class="red2">
+    <h2>I'm Guan Hao.</h2>
+    <p>a programmer.</p>
+  </div>
+  <div class="blue2">
+
+  </div>
+  <div class="yellow2">
+
+  </div>
+  <p>Solution Description: Calculate the correct margin-left widths accordingly.</p>
+
+  <h3>Exercise 3: Three Horizontal Squares using Inline Display</h3>
+  <div class="red3">
+
+  </div>
+
+  <div class="blue3">
+
+  </div>
+
+  <div class="yellow3">
+
+  </div>
+
+  <p>Solution Description: Just change display properties to inline-block from Exercise 1.</p>
+
+  <h3>Exercise 4: Changing Order of Squares from Exercise 3 using Position Relative.</h3>
+  <div class="red4">
+
+  </div>
+
+  <div class="blue4">
+
+  </div>
+
+  <div class="yellow4">
+
+  </div>
+
+  <p>
+    Solution Description: Use position relative right / left. <br>
+    Note that the direction the element is going is opposite of direction in code.
+  </p>
+
+  <h3>Exercise 5: Three Diagonal Squares using Position Absolute.</h3>
+  <p>Yellow top left, blue middle, red bottom right.</p>
+  <div class="container">
+    <div class="red5">
+
+    </div>
+
+    <div class="blue5">
+
+    </div>
+
+    <div class="yellow5">
+
+    </div>
+  </div>
+
+  <p>
+    Solution Description: Use nested divs and position absolute with respective
+    top positions and left positions. <br>
+    <strong> Parent element position needs to be set Relative for it to work.</strong>
+  </p>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

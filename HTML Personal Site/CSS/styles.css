@@ -1,0 +1,72 @@
+a:visited{
+  color:blue;
+}
+
+body {
+  background-color: #FFF4e4;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+br {
+  display: block;
+  /* makes it have a width */
+  content: "";
+  /* clears default height */
+  margin-top: 20px;
+  /* change this to whatever height you want it */
+}
+
+h1 {
+  color: #4d80e4;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  font-family: 'Crete Round', serif;
+}
+
+h3 {
+  color: #0c9463;
+  font-size: 1.6rem;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: 'Crete Round', serif;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  margin-top: 20px;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #2e279d;
+  border-width: 10px;
+  margin-bottom: 35px;
+  margin-left: 0;
+  margin-top: 35px;
+  width: 25%;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.font1 {
+  font-family: sans-serif;
+}
+
+.font2 {
+  font-family: serif;
+}
