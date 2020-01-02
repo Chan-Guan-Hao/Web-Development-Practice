@@ -53,6 +53,44 @@ img {
   margin: 20px auto;
 }
 
+.div1 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.div3 {
+  margin: 15px auto 30px auto;
+}
+
+.desert {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.h1_1 {
+  position: absolute;
+  font-size: 15vh;
+  font-family: 'Merienda', cursive;
+  margin: 0;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+
+.p_1 {
+  margin: 0;
+  position: absolute;
+  font-size: 10vh;
+  font-family: 'Gochi Hand', cursive;
+  color: #1E47B9;
+  bottom: 7.5%;
+  right: 0;
+}
+
 .data-science {
   display: inline-block;
   overflow: auto;
@@ -105,55 +143,12 @@ img {
   height: 100%;
 }
 
-.div1 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.div2 {
-  display: inline-block;
-  height: 100vh;
-  width: auto;
-  margin: 0 auto;
-  position: relative;
-}
-
-.div3 {
-  margin: 15px auto 30px auto;
-}
-
-.desert {
-  height: 100vh;
-  width: auto;
-  margin: 0 auto;
-  display: block;
-}
-
-.h1_1 {
-  position: absolute;
-  font-size: 10vh;
-  font-family: 'Merienda', cursive;
-  top: 10vh;
-  left: 0;
-  right: 0;
-}
-
 .middle_container {
   line-height: 2;
 }
 
 .bottom-container {
   line-height: 2;
-}
-
-.p_1 {
-  margin: 0;
-  position: absolute;
-  font-size: 7.5vh;
-  font-family: 'Gochi Hand', cursive;
-  color: #1E47B9;
-  bottom: 7.5%;
-  right: 0;
 }
 
 .myButton {
